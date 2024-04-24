@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.el-card__body, .el-main {
+    padding: 0px;
+}
+.el-card__body{
+    padding: auto;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+body{
+    font-size: 15px;
+}
+/* 登录界面 */
+.log_in{
+    background: url(../img/绿色.jpg)no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.log_in-content{
+    background-color: rgb(191, 220, 206);
+    width: 45vh;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 20px 2px rgba(0,0,0,.3) ;
+    /* 定位技术 */
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    /* 往自身水平竖直方向移动。从而实现居中 */
+    text-align: center;
+
+}
+.log_in-title{
+    font-size: 25px;
+    text-align: center;
+    margin: 20px 0;
+}
+.log_in .log_in-button{
+    margin-left: -70px;
+    width: 110px;
+    text-align: center;
+}
+
+/* 首页 */
+#module .el-aside{
+    height: 100vh;
+}
+#module .el-menu{
+    height: 100%;
+    background-color:rgb(186, 216, 185) ;
+}
+#module .el-menu li{
+    color: rgb(7, 1, 1);
+}
+
+/* 病人管理界面 */
+.pationce-aside {
+    position: relative;
+    padding: 0;
+    background-color: #d6eae2;
+    color: #333;
+    text-align: center;
+    position: relative;
+  }
+
+  .pationce-header{
+    padding: 0 0 0;
+    background-color: #d3dce2;
+    color: #333;
+    text-align: center;
+    line-height: 60px;
+
+  }
+  
+
+  
+  .pationce-main {
+    padding-bottom:0;
+    background-color: #dde9f1;
+    color: #333;
+    text-align: center;
+    line-height: 160px;
+  }
+
+  .box {
+    width: 100%;
+    height: 100%;
+  }
+  body {
+    background-color:#d4e8df ;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    line-height: 1.15;
+  }
+  header {
+    height: 3rem;
+    background-color:rgb(186, 216, 185)  ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /*两个参数分别为宽度，高度  */
+  }
+  h1 {
+    font-size: 2.5rem;
+    color: #0b0b0b;
+    text-align: center;
+    line-height: 3rem;
+    font-family: 隶书;
+    font-weight: 800;
+    position: relative;
+  }
+  .mainbox {
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .mainbox .column {
+    flex: 3;
+  }
+  .mainbox .column:nth-child(2) {
+    flex: 5;
+    margin: 0 0.125rem 0.1875rem;
+  }
+  .pannel {
+    position: relative;
+    height: 21rem;
+    border: 1px solid #f0faf6;
+    background-color: #d0e9df;
+    margin-bottom: 0.1875rem;
+  }
+  .pannel::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0.125rem;
+    height: 0.125rem;
+    border-left: 0.025rem solid white;
+    border-top: 0.025rem solid white;
+    content: "";
+  }
+  .pannel::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0.125rem;
+    height: 0.125rem;
+    border-right: 0.025rem solid white;
+    border-top: 0.025rem solid white;
+    content: "";
+  }
+  .pannel .pannel-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  .pannel .pannel-footer::before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0.125rem;
+    height: 0.125rem;
+    border-left: 0.025rem solid white;
+    border-bottom: 0.025rem solid white;
+    content: "";
+  }
+  .pannel .pannel-footer::after {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0.125rem;
+    height: 0.125rem;
+    border-right: 0.025rem solid white;
+    border-bottom: 0.025rem solid white;
+    content: "";
+  }
+  .pannel h2 {
+    height: 1.5rem;
+    color: #141315;
+    line-height: 1.5rem;
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: 隶书;
+  }
+  .no {
+    position: relative;
+    background-color:rgb(191, 220, 206);
+    padding: 0.1875rem;
+    height: 3rem;
+  }
+  .no .no-hd {
+    border: 1px solid rgb(191, 220, 206);
+  }
+  .no .no-hd::after {
+    position: absolute;
+    top: 0.02rem;
+    right: 0;
+    width: 0.125rem;
+    height: 0.125rem;
+    border-right: 0.025rem solid white;
+    border-top: 0.025rem solid white;
+    content: "";
+  }
+  .no .no-hd::before {
+    position: absolute;
+    top: 0.02rem;
+    left: 0;
+    width: 0.125rem;
+    height: 0.125rem;
+    border-left: 0.025rem solid white;
+    border-top: 0.025rem solid white;
+    content: "";
+  }
+  .no .no-hd ul {
+    display: flex;
+  }
+  .no .no-hd ul li {
+    position: relative;
+    flex: 1;
+    list-style-type: none;
+    line-height: 3rem;
+    font-size:2rem;
+    color: #131211;
+    text-align: center;
+    font-family: 隶书;
+  }
+  .no .no-hd ul li::after {
+    position: absolute;
+    top: 25%;
+    right: 0;
+    width: 0.0125rem;
+    height: 50%;
+    border-right: 0.025rem solid white;
+    content: "";
+  }
+  .no .no-bd {
+    text-align: center;
+  }
+  
+  
+  .map {
+    position: relative;
+    height: 60.4rem;
+    border: 0.5px solid rgb(240, 245, 242);
+    background-color: rgb(192, 220, 206);
+  }
+  
