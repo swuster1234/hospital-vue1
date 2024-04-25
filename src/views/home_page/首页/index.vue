@@ -18,6 +18,7 @@
           <div class="pannel">
               <div class="pannel-footer"></div>
               <h2>医院首页数据分析</h2>
+              
           </div>
           <div class="pannel">
               <div class="pannel-footer"></div>
