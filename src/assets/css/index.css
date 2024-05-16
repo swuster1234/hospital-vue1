@@ -98,26 +98,37 @@ body{
     height: 100%;
   }
   body {
-    background-color:#d4e8df ;
+    position: relative;
+    background-color:rgb(186, 216, 185) ;
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
-    line-height: 1.15;
+    height: 48rem;
   }
   header {
     height: 3rem;
-    background-color:rgb(186, 216, 185)  ;
+    background-color:rgb(186, 216, 185) ;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     /*两个参数分别为宽度，高度  */
   }
-  h1 {
+  h1 { 
     font-size: 2.5rem;
     color: #0b0b0b;
     text-align: center;
-    line-height: 3rem;
+    line-height:3rem;
     font-family: 隶书;
     font-weight: 800;
+    position: relative;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+    color: #0b0b0b;
+    text-align: center;
+    line-height: 1.5rem;
+    font-family: 隶书;
+    font-weight: 1000;
     position: relative;
   }
   .mainbox {
@@ -129,17 +140,18 @@ body{
     flex: 3;
   }
   .mainbox .column:nth-child(2) {
-    flex: 5;
-    margin: 0 0.125rem 0.1875rem;
+    flex: 4;
+    /* margin: 0 0.125rem 0.1875rem; */
   }
   .pannel {
     position: relative;
-    height: 21rem;
-    border: 1px solid #f0faf6;
-    background-color: #d0e9df;
-    margin-bottom: 0.1875rem;
+    height: 15.8rem;
+    border-top: 0.5px solid #e4f3ed;
+    background-color: rgba(143, 205, 212, 0.2);
+    border-radius: 2.5rem;
+    /* margin-bottom: 0.1875rem; */
   }
-  .pannel::before {
+  /* .pannel::before {
     position: absolute;
     top: 0;
     left: 0;
@@ -148,8 +160,20 @@ body{
     border-left: 0.025rem solid white;
     border-top: 0.025rem solid white;
     content: "";
-  }
-  .pannel::after {
+  } */
+
+  /* .panne3::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0.125rem;
+    height: 0.125rem;
+    border-left: 0.025rem solid white;
+    border-top: 0.025rem solid white;
+    content: "";
+  } */
+
+  /* .pannel::after {
     position: absolute;
     top: 0;
     right: 0;
@@ -158,14 +182,14 @@ body{
     border-right: 0.025rem solid white;
     border-top: 0.025rem solid white;
     content: "";
-  }
-  .pannel .pannel-footer {
+  } */
+  /* .pannel .pannel-footer {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
-  }
-  .pannel .pannel-footer::before {
+  } */
+  /* .pannel .pannel-footer::before {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -174,8 +198,8 @@ body{
     border-left: 0.025rem solid white;
     border-bottom: 0.025rem solid white;
     content: "";
-  }
-  .pannel .pannel-footer::after {
+  } */
+  /* .pannel .pannel-footer::after {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -184,8 +208,9 @@ body{
     border-right: 0.025rem solid white;
     border-bottom: 0.025rem solid white;
     content: "";
-  }
+  } */
   .pannel h2 {
+    font-weight: bold;
     height: 1.5rem;
     color: #141315;
     line-height: 1.5rem;
@@ -195,14 +220,14 @@ body{
   }
   .no {
     position: relative;
-    background-color:rgb(191, 220, 206);
-    padding: 0.1875rem;
+    background-color:rgb(186, 216, 185);
+    /* padding: 0.1875rem; */
     height: 3rem;
   }
   .no .no-hd {
-    border: 1px solid rgb(191, 220, 206);
+    border-top: 1px solid rgb(191, 220, 206);
   }
-  .no .no-hd::after {
+  /* .no .no-hd::after {
     position: absolute;
     top: 0.02rem;
     right: 0;
@@ -211,8 +236,8 @@ body{
     border-right: 0.025rem solid white;
     border-top: 0.025rem solid white;
     content: "";
-  }
-  .no .no-hd::before {
+  } */
+  /* .no .no-hd::before {
     position: absolute;
     top: 0.02rem;
     left: 0;
@@ -221,9 +246,10 @@ body{
     border-left: 0.025rem solid white;
     border-top: 0.025rem solid white;
     content: "";
-  }
+  } */
   .no .no-hd ul {
     display: flex;
+    
   }
   .no .no-hd ul li {
     position: relative;
@@ -235,7 +261,7 @@ body{
     text-align: center;
     font-family: 隶书;
   }
-  .no .no-hd ul li::after {
+  /* .no .no-hd ul li::after {
     position: absolute;
     top: 25%;
     right: 0;
@@ -243,16 +269,76 @@ body{
     height: 50%;
     border-right: 0.025rem solid white;
     content: "";
-  }
+  } */
   .no .no-bd {
     text-align: center;
+    
   }
   
   
   .map {
     position: relative;
-    height: 60.4rem;
-    border: 0.5px solid rgb(240, 245, 242);
-    background-color: rgb(192, 220, 206);
+    height: 44.69rem;
+    border: 0.5px rgb(41, 146, 85);
+    background-color: rgb(186, 216, 185);
+    
   }
+  
+  .map1{
+    position: relative;
+    height: 23.7rem;
+    border-top: 1px solid rgb(240, 245, 242);
+    background-color: rgba(143, 205, 212, 0.2);
+    border-radius: 2.5rem;
+  }
+
+  .map2{
+    position: relative;
+    height: 20.99rem;
+    background-color: rgba(161, 206, 211, 0.2);
+    border-top: 1px solid rgb(240, 245, 242);
+    border-radius: 2.5rem;
+  }
+
+  .block1{
+    position: relative;
+    width: 13.5rem;
+    height: 100%;
+    border-top: 0.5px solid rgb(240, 245, 242);
+    background-color:  rgba(143, 205, 212, 0.2);
+    border-radius: 1.5rem;
+  }
+
+  .block2{
+    position: relative;
+    width: 13.5rem;
+    height: 100%;
+    background-color:  rgba(143, 205, 212, 0.2);
+    border-top: 0.5px solid rgb(240, 245, 242);
+    border-radius: 1.5rem;
+    flex: 2;
+  }
+
+  .pannel3 {
+    position: relative;
+    height: 15.8rem;
+    border: 0.1px  #f0faf6;
+    background-color: rgb(186, 216, 185);
+    /* margin-bottom: 0.1875rem; */
+    display: flex;
+  }
+  .pannel4 {
+    position: relative;
+    height: 15.8rem;
+    border: 0.1px  #f0faf6;
+    background-color: rgb(186, 216, 185);
+    /* margin-bottom: 0.1875rem; */
+    display: flex;
+  }
+
+  .title{
+    height: 2rem;
+    /* background-color: aqua; */
+    /* background-image: linear-gradient(to bottom right,rgb(162, 232, 227,0.05), rgb(118, 216, 164)); */
+   } 
   

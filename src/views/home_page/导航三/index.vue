@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <h1>这是导航三的内容</h1>
-  上传到git
+  
   </div>
   </template>
   
